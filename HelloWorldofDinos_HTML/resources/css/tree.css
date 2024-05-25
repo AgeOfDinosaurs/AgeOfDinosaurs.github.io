@@ -1,0 +1,2681 @@
+@font-face {
+    font-family: 'uberhandpro';
+    src: url(../UberhandTextProBold.TTF);
+}
+
+.navbar {
+    background-color: #5b92e5;
+    border-width: 10px;
+    position: fixed;
+    z-index: 3;
+    top: -10px;
+    width: 100%;
+    height: 16%;
+    left: 0px;
+}
+
+.navbar li {
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    display: inline-block;
+    padding-inline: 20px;   
+    font-family: "uberhandpro";
+    font-size: 40px;
+    filter: drop-shadow(4px 4px 4px black);
+    vertical-align: middle;
+}
+
+.navbar a {
+    text-decoration: none;  
+    text-align: end;
+    color: white;   
+    font-size: 30px;
+}
+
+.banner {
+    background-color:#75a2e6;
+    z-index: 3;
+    color :white;
+}
+
+#logobanner {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 15px;
+    
+}   
+
+
+.infosheet_tyr{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_tyr {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ornt{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ornt {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_stgn{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_stgn {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_thyd{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_thyd {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_stgd{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_stgd {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dac{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dac {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_stg{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_stg {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_hua{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_hua {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_nodo{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_nodo {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_anky{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_anky {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_thyn{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_thyn {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_norn{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_norn {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ornp{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ornp {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_jeh{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_jeh {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_igua{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_igua {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_rhab{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_rhab {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_styc{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_styc {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_igua{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_igua {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_hado{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_hado {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_hadi{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_hadi {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_lamb{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_lamb {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_slph{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_slph {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ankx{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ankx {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dry{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dry {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_het{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_het {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_pchy{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_pchy {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ncer{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ncer {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_lept{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_lept {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_pcer{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_pcer {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_chas{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_chas {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_cent{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_cent {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_cer{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_cer {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_thr{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_thr {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_nthr{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_nthr {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_colp{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_colp {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dilo{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dilo {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_teta{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_teta {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_crt{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_crt {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_crt{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_crt {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_noa{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_noa {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_abel{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_abel {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_maj{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_maj {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_brcy{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_brcy {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_meg{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_meg {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_eust{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_eust {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_meg{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_meg {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_bary{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_bary {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_spin{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_spin {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_metr{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_metr {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_allo{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_allo {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_char{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_char {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_nven{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_nven {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_mrap{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_mrap {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_coel{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_coel {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_pcrt{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_pcrt {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_tyrd{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_tyrd {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_comp{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_comp {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ornm{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ornm {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_ornm{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_ornm {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_alva{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_alva {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_mic{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_mic {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dein{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dein {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_alva{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_alva {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_thz{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_thz {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_thz{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_thz {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_ovi{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_ovi {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_ovi{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_ovi {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_cae{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_cae {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_scan{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_scan {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_para{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_para {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_unen{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_unen {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_edrm{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_edrm {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_troo{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_troo {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_avia{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_avia {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_bird{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_bird {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_srmp{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_srmp {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_plat{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_plat {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_rioj{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_rioj {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_mass{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_mass {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_anch{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_anch {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_less{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_less {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_grav{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_grav {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_esrp{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_esrp {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_mame{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_mame {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_cama{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_cama {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_rebb{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_rebb {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dicr{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dicr {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_apat{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_apat {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_dipl{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_dipl {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_brac{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_brac {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_tita{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_tita {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_b_lith{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_b_lith {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.infosheet_salt{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    right: 200px;
+    top: 100px;
+    pointer-events: none;
+    /* max-width: 100%; */
+}
+.active_info_salt {
+    opacity: 1;
+    right: 00px;
+    pointer-events: fill;
+}
+.test {
+    position: absolute;
+    width: 6800px;
+    top:110px;
+    z-index: -4;
+}
+.testlayer {
+    position: absolute;
+    width: 6800px;
+    left: 0px;
+    top: 110px;
+    z-index: -3;
+}
+
+body {
+    background-color: black;
+}
+
+/* evogroups */
+.buttons {
+    display: block;
+    z-index: 1;
+    font-size: 8px;
+    font-family: "uberhandpro";
+    
+}
+.b_stgn {
+    position: absolute;
+    top: 147px;
+    right: -2470px;
+    width: 640px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_stgn {
+    height: 11px;
+}
+.b_ornt {
+    position: absolute;
+    top: 147px;
+    right: -564px;
+    width: 440px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ornt {
+    height: 11px;
+}
+.b_thyd {
+    position: absolute;
+    top: 161px;
+    right: -988px;
+    width: 445px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_thyd {
+    height: 11px;
+}
+.b_stgd {
+    position: absolute;
+    top: 161px;
+    right: -2445px;
+    width: 515px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_stgd {
+    height: 11px;
+}
+.dac {
+    position: absolute;
+    top: 176px;
+    right: -2230px;
+    width: 290px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dac {
+    height: 11px;
+}
+.stg {
+    position: absolute;
+    top: 192px;
+    right: -2230px;
+    width: 290px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .stg {
+    height: 11px;
+}
+.hua {
+    position: absolute;
+    top: 198px;
+    right: -1894px;
+    width: 535px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .hua {
+    height: 11px;
+}
+.nodo {
+    position: absolute;
+    top: 212px;
+    right: -4910px;
+    width: 2942px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .nodo {
+    height: 11px;
+}
+.anky {
+    position: absolute;
+    top: 229.5px;
+    right: -5262px;
+    width: 2730px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .anky {
+    height: 11px;
+}
+.b_thyn {
+    position: absolute;
+    top: 240px;
+    right: -2517px;
+    width: 2500px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_thyn {
+    height: 11px;
+}
+.b_norn {
+    position: absolute;
+    top: 259px;
+    right: -1697px;
+    width: 1250px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_norn {
+    height: 11px;
+}
+.b_ornp {
+    position: absolute;
+    top: 264.3px;
+    right: -5180px;
+    width: 3304px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ornp {
+    height: 11px;
+}
+.jeh {
+    position: absolute;
+    top: 282px;
+    right: -4590px;
+    width: 1250px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .jeh {
+    height: 11px;
+}
+.b_igua {
+    position: absolute;
+    top: 300px;
+    right: -4965px;
+    width: 2360px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_igua {
+    height: 11px;
+}
+.rhab {
+    position: absolute;
+    top: 320px;
+    right: -4965px;
+    width: 1280px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .rhab {
+    height: 11px;
+}
+.styc {
+    position: absolute;
+    top: 329px;
+    right: -3060px;
+    width: 990px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .styc {
+    height: 11px;
+}
+.igua {
+    position: absolute;
+    top: 346.5px;
+    right: -3520px;
+    width: 910px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .igua {
+    height: 11px;
+}
+.b_hado {
+    position: absolute;
+    top: 364px;
+    right: -4600px;
+    width: 1535px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_hado {
+    height: 11px;
+}
+.b_hadi {
+    position: absolute;
+    top: 390px;
+    right: -5262px;
+    width: 630px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_hadi {
+    height: 11px;
+}
+.lamb {
+    position: absolute;
+    top: 407px;
+    right: -5262px;
+    width: 585px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .lamb {
+    height: 11px;
+}
+.slph {
+    position: absolute;
+    top: 425px;
+    right: -5262px;
+    width: 370px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .slph {
+    height: 11px;
+}
+.b_ankx {
+    position: absolute;
+    top: 382px;
+    right: -2327px;
+    width: 582px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ankx {
+    height: 11px;
+}
+.dry {
+    position: absolute;
+    top: 405px;
+    right: -2310px;
+    width: 860px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dry {
+    height: 11px;
+}
+.het {
+    position: absolute;
+    top: 422px;
+    right: -2687px;
+    width: 2625px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .het {
+    height: 11px;
+}
+.pchy {
+    position: absolute;
+    top: 440px;
+    right: -4860px;
+    width: 3435px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .pchy {
+    height: 11px;
+}
+.b_ncer {
+    position: absolute;
+    top: 458px;
+    right: -4460px;
+    width: 1550px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ncer {
+    height: 11px;
+}
+.lept {
+    position: absolute;
+    top: 472px;
+    right: -5235px;
+    width: 655px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .lept {
+    height: 11px;
+}
+.pcer {
+    position: absolute;
+    top: 490px;
+    right: -5171px;
+    width: 415px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .pcer {
+    height: 11px;
+}
+.chas {
+    position: absolute;
+    top: 509px;
+    right: -5262px;
+    width: 380px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .chas {
+    height: 11px;
+}
+.cent {
+    position: absolute;
+    top: 525px;
+    right: -5262px;
+    width: 380px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .cent {
+    height: 11px;
+}
+.b_cer {
+    position: absolute;
+    top: 515px;
+    right: -3485px;
+    width: 2185px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_cer {
+    height: 11px;
+}
+.b_thr {
+    position: absolute;
+    top: 730px;
+    right: 615px;
+    width: 405px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_thr {
+    height: 11px;
+}
+.b_nthr {
+    position: absolute;
+    top: 500px;
+    right: -315px;
+    width: 565px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_nthr {
+    height: 11px;
+}
+.colp {
+    position: absolute;
+    top: 519px;
+    right: -55px;
+    width: 645px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .colp {
+    height: 11px;
+}
+.dilo {
+    position: absolute;
+    top: 799px;
+    right: -655px;
+    width: 447px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dilo {
+    height: 11px;
+}
+.b_teta {
+    position: absolute;
+    top: 766px;
+    right: -1002px;
+    width: 522px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_teta {
+    height: 11px;
+}
+.b_crt {
+    position: absolute;
+    top: 520px;
+    right: -1087px;
+    width: 325px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_crt {
+    height: 11px;
+}
+.crt {
+    position: absolute;
+    top: 530px;
+    right: -2337px;
+    width: 472px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .crt {
+    height: 11px;
+}
+.noa {
+    position: absolute;
+    top: 544.5px;
+    right: -4893px;
+    width: 2844px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .noa {
+    height: 11px;
+}
+.abel {
+    position: absolute;
+    top: 569px;
+    right: -4372px;
+    width: 2360px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .abel {
+    height: 11px;
+}
+.maj {
+    position: absolute;
+    top: 559px;
+    right: -5163px;
+    width: 585px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .maj {
+    height: 11px;
+}
+.brcy {
+    position: absolute;
+    top: 576px;
+    right: -5146px;
+    width: 547px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .brcy {
+    height: 11px;
+}
+.b_meg {
+    position: absolute;
+    top: 554px;
+    right: -1663px;
+    width: 311px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_meg {
+    height: 11px;
+}
+.eust {
+    position: absolute;
+    top: 570px;
+    right: -1896px;
+    width: 437px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .eust {
+    height: 11px;
+}
+.meg {
+    position: absolute;
+    top: 585px;
+    right: -1742px;
+    width: 283px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .meg {
+    height: 11px;
+}
+.bary {
+    position: absolute;
+    top: 591px;
+    right: -3523px;
+    width: 1706px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .bary {
+    height: 11px;
+}
+.spin {
+    position: absolute;
+    top: 606px;
+    right: -4319px;
+    width: 1380px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .spin {
+    height: 11px;
+}
+.metr {
+    position: absolute;
+    top: 614px;
+    right: -2782px;
+    width: 1309px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .metr {
+    height: 11px;
+}
+.allo {
+    position: absolute;
+    top: 632px;
+    right: -2577px;
+    width: 723px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .allo {
+    height: 11px;
+}
+.char {
+    position: absolute;
+    top: 643px;
+    right: -4318px;
+    width: 1525px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .char {
+    height: 11px;
+}
+.b_nven {
+    position: absolute;
+    top: 662px;
+    right: -3773px;
+    width: 952px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_nven {
+    height: 11px;
+}
+.mrap {
+    position: absolute;
+    top: 685px;
+    right: -4309px;
+    width: 1390px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .mrap {
+    height: 11px;
+}
+.b_coel {
+    position: absolute;
+    top: 670px;
+    right: -1853px;
+    width: 397px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_coel {
+    height: 11px;
+}
+.pcrt {
+    position: absolute;
+    top: 694px;
+    right: -1893px;
+    width: 417px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .pcrt {
+    height: 11px;
+}
+.tyrd {
+    position: absolute;
+    top: 704px;
+    right: -4302px;
+    width: 1964px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .tyrd {
+    height: 11px;
+}
+.comp {
+    position: absolute;
+    top: 726px;
+    right: -2803px;
+    width: 1043px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .comp {
+    height: 11px;
+}
+.b_ornm {
+    position: absolute;
+    top: 744px;
+    right: -2678px;
+    width: 487px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ornm {
+    height: 11px;
+}
+.ornm {
+    position: absolute;
+    top: 765px;
+    right: -5200px;
+    width: 1076px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .ornm {
+    height: 11px;
+}
+.b_mic {
+    position: absolute;
+    top: 897px;
+    right: -4896px;
+    width: 1562px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_mic {
+    height: 11px;
+}
+.dein {
+    position: absolute;
+    top: 746px;
+    right: -5200px;
+    width: 1580px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dein {
+    height: 11px;
+}
+.alva {
+    position: absolute;
+    top: 783px;
+    right: -5200px;
+    width: 1076px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .alva {
+    height: 11px;
+}
+.b_thz {
+    position: absolute;
+    top: 792px;
+    right: -3287px;
+    width: 510px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_thz {
+    height: 11px;
+}
+.b_alva {
+    position: absolute;
+    top: 767px;
+    right: -2316px;
+    width: 349px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_alva {
+    height: 11px;
+}
+.b_ovi {
+    position: absolute;
+    top: 832px;
+    right: -2769px;
+    width: 510px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_ovi {
+    height: 11px;
+}
+.ovi {
+    position: absolute;
+    top: 860px;
+    right: -5200px;
+    width: 1100px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .ovi {
+    height: 11px;
+}
+.cae {
+    position: absolute;
+    top: 840px;
+    right: -4968px;
+    width: 1689px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .cae {
+    height: 11px;
+}
+.scan {
+    position: absolute;
+    top: 865px;
+    right: -2369px;
+    width: 333px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .scan {
+    height: 11px;
+}
+.b_para {
+    position: absolute;
+    top: 881px;
+    right: -2369px;
+    width: 333px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_para {
+    height: 11px;
+}
+.unen {
+    position: absolute;
+    top: 880px;
+    right: -5200px;
+    width: 1135px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .unen {
+    height: 11px;
+}
+.edrm {
+    position: absolute;
+    top: 917px;
+    right: -5262px;
+    width: 742px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .edrm {
+    height: 11px;
+}
+.troo {
+    position: absolute;
+    top: 926px;
+    right: -4133px;
+    width: 1847px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .troo {
+    height: 11px;
+}
+.b_avia {
+    position: absolute;
+    top: 941px;
+    right: -2949px;
+    width: 304px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_avia {
+    height: 11px;
+}
+.bird {
+    position: absolute;
+    top: 954px;
+    right: -5332px;
+    width: 70px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .bird {
+    height: 11px;
+}
+.b_srmp {
+    position: absolute;
+    top: 1050px;
+    right: -493px;
+    width: 1770px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_srmp {
+    height: 11px;
+}
+.plat {
+    position: absolute;
+    top: 1019px;
+    right: 200px;
+    width: 629px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .plat {
+    height: 11px;
+}
+.rioj {
+    position: absolute;
+    top: 990px;
+    right: -5px;
+    width: 312px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .rioj {
+    height: 11px;
+}
+.mass {
+    position: absolute;
+    top: 827px;
+    right: -329px;
+    width: 614px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .mass{
+    height: 11px;
+}
+.b_anch {
+    position: absolute;
+    top: 851px;
+    right: -804px;
+    width: 807px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_anch {
+    height: 11px;
+}
+.less {
+    position: absolute;
+    top: 874px;
+    right: -531px;
+    width: 738px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .less {
+    height: 11px;
+}
+.grav {
+    position: absolute;
+    top: 893px;
+    right: -1530px;
+    width: 1372px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .grav {
+    height: 11px;
+}
+.b_esrp {
+    position: absolute;
+    top: 910px;
+    right: -1674px;
+    width: 1182px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_esrp {
+    height: 11px;
+}
+.mame {
+    position: absolute;
+    top: 950px;
+    right: -2194px;
+    width: 1700px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .mame {
+    height: 11px;
+}
+.cama {
+    position: absolute;
+    top: 1080px;
+    right: -3267px;
+    width: 1850px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .cama {
+    height: 11px;
+}
+.rebb {
+    position: absolute;
+    top: 965px;
+    right: -4122px;
+    width: 1380px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .rebb {
+    height: 11px;
+}
+.dicr {
+    position: absolute;
+    top: 974px;
+    right: -2410px;
+    width: 320px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dicr {
+    height: 11px;
+}
+.apat {
+    position: absolute;
+    top: 991px;
+    right: -2395px;
+    width: 320px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .apat {
+    height: 11px;
+}
+.dipl {
+    position: absolute;
+    top: 1008px;
+    right: -2395px;
+    width: 320px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .dipl {
+    height: 11px;
+}
+.brac {
+    position: absolute;
+    top: 1025px;
+    right: -3609px;
+    width: 1446px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .brac {
+    height: 11px;
+}
+.tita {
+    position: absolute;
+    top: 1035px;
+    right: -5262px;
+    width: 1493px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .tita {
+    height: 11px;
+}
+.b_lith {
+    position: absolute;
+    top: 1054px;
+    right: -5242px;
+    width: 1620px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .b_lith {
+    height: 11px;
+}
+.salt {
+    position: absolute;
+    top: 1072px;
+    right: -5204px;
+    width: 1132px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .salt {
+    height: 11px;
+}
+.thz {
+    position: absolute;
+    top: 806px;
+    right: -4588px;
+    width: 513px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .thz {
+    height: 11px;
+}
+.tyr {
+    position: absolute;
+    top: 713px;
+    right: -5262px;
+    width: 678px;
+    height: 11px;
+    background-color: rgb(219, 184, 57);
+    text-align: center;
+}
+.active .tyr {
+    height: 11px;
+}
+/* end evogroups */
