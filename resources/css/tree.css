@@ -46,7 +46,12 @@
     top: 15px;
     
 }   
-
+.buttons {
+    position: relative;
+    float: left;
+    left: 1465px;
+    top: -10px;
+}
 
 .infosheet_tyr{
     height: 700px;
