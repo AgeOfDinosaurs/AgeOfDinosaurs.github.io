@@ -46,3 +46,60 @@
     top: 15px;
     
 }   
+
+.info{
+    padding-top: 8%;
+    font-family: "uberhandpro";
+    font-size: xx-large;
+    padding-left: 2%;
+    max-width: 95%;
+}
+
+.djadochta {
+    position: relative;
+    max-width: 95%;
+    margin-left: 2%;
+    filter: drop-shadow(10px 10px 10px black);
+    border: 5px solid  rgb(219, 184, 57);
+}
+
+.info_d{
+    right: 5%;
+    font-family: "uberhandpro";
+    font-size: large;
+    max-width: 95%;
+    color: rgb(172, 172, 172);
+    padding-left: 2%;}
+    
+
+.hell_creek {
+    position: relative;
+    max-width: 95%;
+    margin-left: 2%;
+    filter: drop-shadow(10px 10px 10px black);
+    border: 5px solid  rgb(219, 184, 57);
+}
+
+.info_c{
+    right: 5%;
+    font-family: "uberhandpro";
+    font-size: large;
+    max-width: 95%;
+    color: rgb(172, 172, 172);
+    padding-left: 2%;}
+
+
+.yixian {
+    position: relative;
+    max-width: 95%;
+    margin-left: 2%;
+    filter: drop-shadow(10px 10px 10px black);
+    border: 5px solid  rgb(219, 184, 57);
+}
+
+.info_y{
+    right: 5%;font-family: "uberhandpro";
+    font-size: large;
+    max-width: 95%;
+    color: rgb(172, 172, 172);
+    padding-left: 2%;}

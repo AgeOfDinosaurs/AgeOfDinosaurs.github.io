@@ -47,11 +47,18 @@
     
 }   
 
-.sourcelist {
-    padding-top: 10%;
-    position: relative;
-    font-family: "uberhandpro";
-    font-size: 200%;
-    max-width: 95%;
-    padding-left: 2%;
+.dinologo{
+max-width: 14%;
+margin-top: 10%;
+margin-left: 43%;
+border: 10px solid black;
+}
+
+.desc {
+font-size: 200%;
+max-width: 50%;
+text-align: center;
+padding-left: 25%;
+position: relative;
+
 }
