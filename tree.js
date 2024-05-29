@@ -746,6 +746,8 @@ b_stgn.onclick = function(){
 document.onclick=function(e){
     if (!salt.contains(e.target) && !infosheet_salt.contains(e.target)
          && !b_ornt.contains(e.target) && !infosheet_b_ornt.contains(e.target)
+         && !b_stgn.contains(e.target) && !infosheet_b_stgn.contains(e.target)
+         && !b_alva.contains(e.target) && !infosheet_b_alva.contains(e.target)
          && !b_thyd.contains(e.target) && !infosheet_b_thyd.contains(e.target)
          && !tyr.contains(e.target) && !infosheet_tyr.contains(e.target)
          && !b_stgd.contains(e.target) && !infosheet_b_stgd.contains(e.target)
